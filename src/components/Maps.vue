@@ -24,7 +24,7 @@
             !state.isMakeGuessButtonClicked"
       @click="showMap"
     >
-      MAKE GUESS
+      TENTAR ADVINHAR
     </button>
     <button
       id="guess-button"
@@ -34,21 +34,21 @@
             (viewport.width > 450 || state.isMakeGuessButtonClicked)"
       @click="selectLocation"
       >
-      GUESS
+      ADVINHAR
     </button>
     <button
       id="next-button"
       v-if="state.isGuessButtonClicked && round < 5"
       @click="goToNextRound"
     >
-      NEXT ROUND
+      PRÓXIMO ROUND
     </button>
     <button
       id="summary-button"
       v-if="state.isGuessButtonClicked && round >= 5"
       @click="state.dialogSummary = true"
     >
-      VIEW SUMMARY
+      VISUALIZAR RESUMO
     </button>
     <DialogSummary
       :dialogSummary="state.dialogSummary"
@@ -156,7 +156,7 @@ export default defineComponent({
 
     function setInfoWindow(): void {
       const infoWindow = new google.maps.InfoWindow({
-        content: '<b>' + state.distance + '</b> km away!'
+        content: '<b>' + state.distance + '</b> km longe do local!'
       })
       infoWindow.open(state.map!, state.markers[0])
     }

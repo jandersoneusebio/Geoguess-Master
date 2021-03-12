@@ -24,7 +24,7 @@
             !state.isMakeGuessButtonClicked"
       @click="showMap"
     >
-      MAKE GUESS
+      TENTAR ADVINHAR
     </button>
     <button
       id="guess-button"
@@ -36,7 +36,7 @@
             (viewport.width > 450 || state.isMakeGuessButtonClicked)"
       @click="selectLocation"
       >
-      GUESS
+      ADVINHAR
     </button>
     <button
       id="next-button"
@@ -45,14 +45,14 @@
       v-if="state.isNextButtonVisible"
       @click="goToNextRound"
       >
-      NEXT ROUND
+      PRÓXIMO ROUND
     </button>
     <button
       id="summary-button"
       v-if="state.isSummaryButtonVisible"
       @click="state.dialogSummary = true"
       >
-      VIEW SUMMARY
+      VISUALIZAR RESUMO
     </button>
     <DialogSummaryWithFriends
       :dialogSummary="state.dialogSummary"
@@ -210,7 +210,7 @@ export default defineComponent({
 
     function setInfoWindow(playerName: string, distance: number): void {
       let infoWindow = new google.maps.InfoWindow({
-        content: '<b>' + playerName + '</b>' + ' is <b>' + distance + '</b> km away!'
+        content: '<b>' + playerName + '</b>' + ' is <b>' + distance + '</b> km longe!'
       })
       infoWindow.open(state.map!, state.markers[state.markers.length - 1])
     }

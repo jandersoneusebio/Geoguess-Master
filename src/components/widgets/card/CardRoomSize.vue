@@ -1,7 +1,7 @@
 <template>
   <v-card color="#E1F5FE">
     <v-card-title>
-      <span>Input your room size.</span>
+      <span>Informe a quantidade de players da sala:</span>
     </v-card-title>
     <v-card-text>
       <v-container>
@@ -20,12 +20,12 @@
         dark
         depressed
         color="#43B581"
-        @click="setRoomSize">NEXT</v-btn>
+        @click="setRoomSize">CONTINUAR</v-btn>
       <v-btn
         dark
         depressed
         color="#FF5252"
-        @click="cancel">CANCEL</v-btn>
+        @click="cancel">CANCELAR</v-btn>
     </v-card-actions>
   </v-card>
 </template>

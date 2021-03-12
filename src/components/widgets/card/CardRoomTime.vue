@@ -1,7 +1,7 @@
 <template>
   <v-card color="#E1F5FE">
     <v-card-title>
-      <span>Set a time limitation.</span>
+      <span>Defina o tempo limite do round.</span>
     </v-card-title>
     <v-card-text>
       <v-container>
@@ -25,12 +25,12 @@
         dark
         depressed
         color="#43B581"
-        @click="setTimeLimitation">NEXT</v-btn>
+        @click="setTimeLimitation">CONTINUAR</v-btn>
       <v-btn
         dark
         depressed
         color="#FF5252"
-        @click="cancel">CANCEL</v-btn>
+        @click="cancel">CANCELAR</v-btn>
     </v-card-actions>
   </v-card>
 </template>
@@ -54,7 +54,7 @@ export default defineComponent({
       timeLimitation: 0,
       timeLimitationItems: [
           {
-            text: 'Infinite',
+            text: 'Infinito',
             value: 0,
           },
           {

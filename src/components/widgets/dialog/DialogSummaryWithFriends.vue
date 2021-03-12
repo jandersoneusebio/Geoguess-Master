@@ -17,7 +17,7 @@
             >
               mdi-crown
             </v-icon>
-            <strong :style="{ 'margin-left': index !== 0 ? '24px' : 'none' }">{{ text.playerName }}</strong> is <strong>{{ text.finalScore }}</strong> km away!
+            <strong :style="{ 'margin-left': index !== 0 ? '24px' : 'none' }">{{ text.playerName }}</strong> está <strong>{{ text.finalScore }}</strong> km longe!
           </span>
         </v-row>
         <v-row justify="center">
@@ -26,7 +26,7 @@
             class="mt-8"
             dark
             color="#FF5252"
-            @click="finishGame">EXIT</v-btn>
+            @click="finishGame">SAIR</v-btn>
         </v-row>
       </v-card-text>
       <v-card-text class="text-right">

@@ -14,17 +14,17 @@
         <v-list>
           <v-list-item href="#section-about">
             <v-list-item-content>
-              <v-list-item-title>ABOUT</v-list-item-title>
+              <v-list-item-title>SOBRE</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
           <v-list-item href="#section-limitation">
             <v-list-item-content>
-              <v-list-item-title>LIMITATION</v-list-item-title>
+              <v-list-item-title>LIMITAÇÕES</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
           <v-list-item href="#contact">
             <v-list-item-content>
-              <v-list-item-title>CONTACT</v-list-item-title>
+              <v-list-item-title>CONTATO</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
         </v-list>

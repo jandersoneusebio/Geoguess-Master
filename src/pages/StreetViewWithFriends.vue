@@ -125,7 +125,7 @@ export default defineComponent({
       room: null,
       isReady: false,
       dialogMessage: true,
-      dialogTitle: 'Waiting for other players..',
+      dialogTitle: 'Aguardando os outros jogadores...',
       dialogText: '',
     })
 
@@ -212,7 +212,7 @@ export default defineComponent({
       state.hasLocationSelected = true
       state.score += distance
       state.room!.child('finalScore/player' + props.playerNumber).set(state.score)
-      state.dialogTitle = 'Waiting for other players..'
+      state.dialogTitle = 'Aguardando os outros jogadores...'
       state.dialogMessage = true
     }
 
@@ -240,8 +240,8 @@ export default defineComponent({
     }
 
     function exitGame(): void {
-      state.dialogTitle = 'Redirecting to home page..'
-      state.dialogText = 'You are forced to exit the game. Redirect to home page after 5 seconds..'
+      state.dialogTitle = 'Redirecionando para a tela inicial...'
+      state.dialogText = 'A sala em que você estava foi excluída. Redirecionando para a página inicial em 5 segundos...'
       state.dialogMessage = true
       if (state.room !== null) {
         state.room.off()
@@ -253,7 +253,7 @@ export default defineComponent({
     }
 
     function finishGame(): void {
-      state.dialogTitle = 'Waiting for other players to finish..'
+      state.dialogTitle = 'Aguardando os outros jogadores para terminar...'
       state.dialogText = ''
       state.dialogMessage = true
     }

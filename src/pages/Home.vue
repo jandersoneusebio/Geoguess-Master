@@ -14,7 +14,7 @@
         <v-row
           class="record-wrapper" 
           justify="center">
-          <span id="record">Record: {{ record }} km</span>
+          <span id="record">Recorde: {{ record }} km</span>
         </v-row>
         <v-row 
           class="button-wrapper"
@@ -24,14 +24,14 @@
             class="ml-8 mr-8"
             @click="$router.push('street-view')"
           >
-            Single Player
+            Jogar Sozinho
           </button>
           <button 
             id="with-friends-button"
             class="ml-8 mr-8"
             @click="state.dialogRoom = true"
           >
-            With Friends
+            Jogar com Amigos
           </button>
         </v-row>
       </v-container>
@@ -40,12 +40,12 @@
       <v-container>
         <v-row justify="center">
           <div class="section-header">
-            <strong>ABOUT</strong>
+            <strong>SOBRE</strong>
           </div>
         </v-row>
         <v-row justify="center">
           <div class="description-wrapper">
-            Geoguess Master is a free geoguess game. Players compete how close each player can guess a random locations in five rounds. You can play multiplayer game with your friends up to five friends. The first player creates a room and decide a room size, and then other players type the same room name name as the first player decided and the game will start.
+            Geoguess Master é um jogo de advinhação geográfica gratuito. O jogadores tentam advinhar o quão perto cada jogador consegue advinhar uma localização aleatória em 5 rounds. Você pode jogar no modo multi-jogador com até cinco amigos. O primeiro jogador cria a sala e define a quantidade de jogadores, e os outros jogadores digitam o mesmo nome de sala que o primeiro jogador criou. Após isso, o jogo começa!
           </div>
         </v-row>
       </v-container>
@@ -54,12 +54,12 @@
       <v-container>
         <v-row justify="center">
           <div class="section-header">
-            <strong>LIMITATION</strong>
+            <strong>LIMITAÇÕES</strong>
           </div>
         </v-row>
         <v-row justify="center">
           <div class="description-wrapper">
-            I set quotas to show Street View and Map so I keep running this game for free. If the map color is inverted or doesn't load properly, it means the quotas has been exceeded on the day. It will reset at midnight Pacific Time. Sorry for inconvenience. However, this game is open source so you can build your own game server and play games unlimitedly. If you are interesed in building your own game server, please read the instruction on my <a href="https://github.com/spider-hand/Geoguess-Master-Web">Github</a>.
+            Eu defini cotas de acesso para mostrar o Street View e o Google Maps para que eu possa continuar mantendo este jogo de forma gratuita. Se o mapa estiver com a cor invertida ou não carregar normalmente, significa que a quantidade de jogadores excederam as cotas no dia. Não se preocupe, as cotas serão reinicializadas à meia noite do Horário Oficial do Pacífico. Perdão pelo incoveniente. De qualquer forma, este jogo é de código-aberto, portanto você pode criar seu próprio servidor e jogar de forma ilimitada. Se você está interessado em criar seu próprio servidor, por favor, leia as instruções no meu  <a href="https://github.com/spider-hand/Geoguess-Master-Web">Github</a>.
           </div>
         </v-row>      
       </v-container>

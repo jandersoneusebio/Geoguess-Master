@@ -1,12 +1,13 @@
 <template>
   <v-card color="#E1F5FE">
     <v-card-title>
-      <span>Input your room name.</span>
+      <span>Informe o nome da sala:</span>
     </v-card-title>
     <v-card-text>
       <v-container>
         <v-row>
           <v-col cols="12">
+            <center>(caso queira entrar em uma sala, informe o mesmo nome da sala já criada).</center>
             <v-text-field
               maxlength="10"
               autofocus
@@ -24,14 +25,14 @@
         depressed
         color="#43B581"
         @click="searchRoom">
-        NEXT
+        CONTINUAR
       </v-btn>
       <v-btn
         dark
         depressed
         color="#FF5252"
         @click="cancel">
-        CANCEL
+        CANCELAR
       </v-btn>
     </v-card-actions>
   </v-card>

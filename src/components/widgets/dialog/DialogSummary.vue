@@ -6,7 +6,7 @@
     <v-card color="#E1F5FE">
       <v-card-text id="card-text-wrapper">
         <v-row justify="center">
-          <span id="summary-text">You are <strong>{{ score }}</strong> km away!</span>
+          <span id="summary-text">Sua pontuação foi de <strong>{{ score }}</strong> km de distância do local!</span>
         </v-row>
         <v-row
           class="mt-8"
@@ -16,13 +16,13 @@
             class="ml-4 mr-4"
             dark
             color="#FF5252"
-            @click="$router.push('/')">EXIT</v-btn>
+            @click="$router.push('/')">SAIR</v-btn>
           <v-btn 
             id="exit-button"
             class="ml-4 mr-4"
             dark
             color="#43B581"
-            @click="playAgain">PLAY AGAIN</v-btn>
+            @click="playAgain">JOGAR NOVAMENTE</v-btn>
         </v-row>
       </v-card-text>
       <v-card-text class="text-right">

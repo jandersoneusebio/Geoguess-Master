@@ -36,8 +36,8 @@
         class="mt-2"
         justify="center"
       >
-        <span id="credit">Photo by <a href="https://unsplash.com/@timowielink?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Timo Wielink</a> on <a href="https://unsplash.com/s/photos/map?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a> ,
-        Design by <a href="http://www.pauloxgomes.com/">Paulo Gomes</a></span>
+        <span id="credit">Foto de fundo por <a href="https://unsplash.com/@timowielink?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Timo Wielink</a> em <a href="https://unsplash.com/s/photos/map?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a> ,
+        Design by <a href="http://www.pauloxgomes.com/">Paulo Gomes</a> , Traduzido com &#10084;&#65039; por: <a href="https://www.linkedin.com/in/jose-janderson-eusebio-de-oliveira/">Janderson Eusébio</a></span>
       </v-row>
     </v-container>
   </div>

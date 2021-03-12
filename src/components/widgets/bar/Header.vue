@@ -12,19 +12,19 @@
       text
       color="#FFFFFF"
       href="#section-about">
-      <span>ABOUT</span>
+      <span>SOBRE</span>
     </v-btn>
     <v-btn
       text
       color="#FFFFFF"
       href="#section-limitation">
-      <span>LIMITATION</span>
+      <span>LIMITAÇÕES</span>
     </v-btn>
     <v-btn
       text
       color="#FFFFFF"
       href="#contact">
-      <span>CONTACT</span>
+      <span>CONTATO</span>
     </v-btn>
   </v-app-bar>
 </template>

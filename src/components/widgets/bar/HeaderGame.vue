@@ -15,10 +15,10 @@
       <span class="main-text">{{ round }} / 5</span>
     </div>
     <div class="round-score-wrapper">
-      <span class="sub-text">SCORE: </span>
+      <span class="sub-text">PONTUAÇÃO: </span>
     </div>
     <div>
-      <span class="main-text">{{ score }} km away</span>
+      <span class="main-text">{{ score }} km longe</span>
     </div>
   </v-app-bar>
 </template>
